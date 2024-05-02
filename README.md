@@ -20,12 +20,12 @@ To use this script, you need to include it in your Articulate Storyline 360 proj
 2. Using [JsDeliver](https://www.jsdelivr.com/github) get a cloud link for the `ChatGPT_Service.js`.
 3. Replace the `customLibSrc` const in `ChatGPT_Library.js` with the link from the JsDeliver.
 4. Add the `ChatGPT_Library.js` to your Articulate Storyline 360 project in the Trigger JavaScript.
-5. Make Sure to create the following variables with the exact Spelling in the Articulate Storyline 360 Project. 
-   `message` - PlaceHolder for User Input,
-   `response` - PlaceHolder for Reply from ChatGPT,
-   `chatHistory` - PlaceHolder for saving History in Temp,
-   `role` - By Default you want to have it as `user`,
-   `apiKey` - Your Secret API Key Created from ChatGPT
+5. Make Sure to create the following variables with the exact Spelling in the Articulate Storyline 360 Project. <br>
+   `message` - PlaceHolder for User Input,<br>
+   `response` - PlaceHolder for Reply from ChatGPT,<br>
+   `chatHistory` - PlaceHolder for saving History in Temp,<br>
+   `role` - By Default you want to have it as `user`,<br>
+   `apiKey` - Your Secret API Key Created from ChatGPT<br>
    
 ## Usage
 
