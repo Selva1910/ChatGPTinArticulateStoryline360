@@ -43,7 +43,7 @@ class TourConfig {
     prev: '#prev',
     next: '#next',
     volume: '#volume'
-    transcript:'#transcript-link'
+    transcript :'#transcript-link'
   };
 
   static defaultSteps = isMobile() 
@@ -190,18 +190,17 @@ class TranslationManager {
         pl: 'Napisy'
       },
       transcript: {
-  en: 'To view the transcript, click the "Transcript" button. It will display the text version of the audio narration.',
-  ar: 'لعرض النص، انقر فوق زر "النص". سيعرض النسخة النصية من السرد الصوتي.',
-  ur: 'ٹرانسکرپٹ دیکھنے کے لیے، "ٹرانسکرپٹ" بٹن پر کلک کریں۔ یہ آڈیو بیان کا تحریری ورژن دکھائے گا۔',
-  nl: 'Om het transcript te bekijken, klik op de knop "Transcript". Het toont de tekstversie van de audiotoelichting.',
-  es: 'Para ver la transcripción, haz clic en el botón "Transcripción". Mostrará la versión en texto de la narración de audio.',
-  fr: 'Pour afficher la transcription, cliquez sur le bouton "Transcription". Il affichera la version texte de la narration audio.',
-  zh: '要查看文本记录，请点击“文本记录”按钮。这将显示音频解说的文本版本。',
-  pt: 'Para visualizar a transcrição, clique no botão "Transcrição". Ele exibirá a versão em texto da narração em áudio.',
-  ro: 'Pentru a vizualiza transcriptul, apasă butonul "Transcript". Va afișa versiunea text a narațiunii audio.',
-  pl: 'Aby zobaczyć transkrypcję, kliknij przycisk „Transkrypcja”. Wyświetli wersję tekstową narracji audio.'
-}
-
+        en: 'Transcript',
+        ar: 'التسميات التوضيحية',
+        ur: 'کیپشنز',
+        nl: 'Ondertitels',
+        es: 'Subtítulos',
+        fr: 'Sous-titres',
+        zh: '字幕',
+        pt: 'Legendas',
+        ro: 'Subtitrări',
+        pl: 'Napisy'
+      }
     },
     slide: {
       en: 'Welcome to the course! This is the slide area where the course content will be displayed. Use the navigation buttons to move between slides.',
@@ -289,6 +288,18 @@ class TranslationManager {
     },
     volume: {
       en: 'This button allows you to adjust the volume for the course content.',
+      ar: 'هذا الزر يسمح لك بتعديل مستوى الصوت لمحتوى الدورة.',
+      ur: 'یہ بٹن آپ کو کورس مواد کے لئے آواز کی سطح کو ایڈجسٹ کرنے کی اجازت دیتا ہے۔',
+      nl: 'Deze knop stelt je in staat het volume van de cursusinhoud aan te passen.',
+      es: 'Este botón te permite ajustar el volumen del contenido del curso.',
+      fr: 'Ce bouton vous permet de régler le volume du contenu du cours.',
+      zh: '此按钮可让您调整课程内容的音量。',
+      pt: 'Este botão permite ajustar o volume do conteúdo do curso.',
+      ro: 'Acest buton îți permite să ajustezi volumul pentru conținutul cursului.',
+      pl: 'Ten przycisk umożliwia regulację głośności treści kursu.'
+    },
+    transcript: {
+      en: 'This button allows you to adjust the Transc for the course content.',
       ar: 'هذا الزر يسمح لك بتعديل مستوى الصوت لمحتوى الدورة.',
       ur: 'یہ بٹن آپ کو کورس مواد کے لئے آواز کی سطح کو ایڈجسٹ کرنے کی اجازت دیتا ہے۔',
       nl: 'Deze knop stelt je in staat het volume van de cursusinhoud aan te passen.',
